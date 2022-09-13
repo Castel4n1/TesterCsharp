@@ -18,6 +18,7 @@ namespace CadastroClientes.Models
         public int Id { get; private set; }
 
         [Required(ErrorMessage ="Nome é necessário!")]
+        [MinLength(1, ErrorMessage = ("O nome do campo deve ter ao menos um caractere"))]
         public string Nome { get; private set; }
         [Required(ErrorMessage = "Nascimento é necessário!")]
         public DateTime Nascimento { get; private set; }

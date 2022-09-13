@@ -98,10 +98,15 @@ namespace CadastroClientes.Test
         public async void PostCliente_ModelStateValida_RetornaCreated()
         {
             //arrange
+            var controller = new ClienteController(_repository.Object);
+            var cliente = new Cliente("Joao", DateTime.Now, "joao@mail.com");
 
+            _repository.Setup(repo => repo.AddCliente(cliente))
+                .ReturnsAsync(cliente);
             //act
-
+            var result = await controller.PostCliente(cliente);
             //assert
+            Assert.IsType<CreatedAtActionResult>(result.Result);
         }
     }
 }
