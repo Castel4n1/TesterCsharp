@@ -11,16 +11,25 @@ using System.Threading.Tasks;
 using Xunit;
 using Moq;
 using CadastroClientes.Models;
+using Bogus;
 
 namespace CadastroClientes.Test
 {
     public class ClientesControllerTest
     {
         Mock<IClienteRepository> _repository;
+        Cliente clienteValido;
 
         public ClientesControllerTest()
         {
             _repository = new Mock<IClienteRepository>();
+
+            clienteValido = new Faker<Cliente>("pt_BR")
+                .CustomInstantiator(fake => new Cliente(
+                    fake.Name.FirstName(),
+                    fake.Date.Past(20),
+                    fake.Internet.Email()
+                    ));
         }
 
         [Fact]
@@ -66,7 +75,7 @@ namespace CadastroClientes.Test
         {
             //Arrange
             var controller = new ClienteController(_repository.Object);
-            var cliente = new Cliente("João", DateTime.Now, "joao@mail.com");
+            var cliente = clienteValido;
 
             _repository.Setup(repo => repo.AddCliente(cliente))
                 .ReturnsAsync(cliente);
@@ -97,15 +106,15 @@ namespace CadastroClientes.Test
         [Fact]
         public async void PostCliente_ModelStateValida_RetornaCreated()
         {
-            //arrange
+            //arrange - 
             var controller = new ClienteController(_repository.Object);
-            var cliente = new Cliente("Joao", DateTime.Now, "joao@mail.com");
+            var cliente = clienteValido;
 
             _repository.Setup(repo => repo.AddCliente(cliente))
                 .ReturnsAsync(cliente);
-            //act
+            //act - Aquilo que você quer testar >
             var result = await controller.PostCliente(cliente);
-            //assert
+            //assert - Tudo que está verificando >
             Assert.IsType<CreatedAtActionResult>(result.Result);
         }
     }

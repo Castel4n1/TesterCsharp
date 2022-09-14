@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "frJFLbHWPuytqhs7adbsA0quf80r0YRBch+lGFYD/QSU/rNEdtMrhA8+BiBoLRxrq0YEnX16Z3CBkkgBMqF7Cw==",
+  "dgSpecHash": "nTzNhY1KTs+vpW2Qda/9uD8lVsIO3Y4tl6j4LkEXCnf21E4JqmqUIfo3SBMGtPVotc/gRhala4NyXRadg737aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

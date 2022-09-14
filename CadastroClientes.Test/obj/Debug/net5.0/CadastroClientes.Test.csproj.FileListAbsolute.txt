@@ -434,3 +434,4 @@ C:\Users\kaue.cbomfim\Documents\CadastroClientes\CadastroClientes.Test\obj\Debug
 C:\Users\kaue.cbomfim\Documents\CadastroClientes\CadastroClientes.Test\obj\Debug\net5.0\CadastroClientes.Test.genruntimeconfig.cache
 C:\Users\kaue.cbomfim\Documents\CadastroClientes\CadastroClientes.Test\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\kaue.cbomfim\Documents\CadastroClientes\CadastroClientes.Test\bin\Debug\net5.0\Moq.dll
+C:\Users\kaue.cbomfim\Documents\CadastroClientes\CadastroClientes.Test\bin\Debug\net5.0\Bogus.dll
