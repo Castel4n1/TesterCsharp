@@ -11,7 +11,7 @@ namespace CadastroClientes.Contracts
         Task<List<Cliente>> GetClientes();
         Task<Cliente> GetClienteById(int id);
         Task<Cliente> AddCliente(Cliente cliente);
-        Task<Cliente> UpdateClientes(Cliente cliente);
+        Task<Cliente> UpdateClientes(int id, Cliente cliente);
         Task DeleteCliente(int id);
 
     }

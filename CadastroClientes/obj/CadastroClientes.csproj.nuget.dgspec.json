@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj": {}
+    "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj": {
+    "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj",
+        "projectUniqueName": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj",
         "projectName": "CadastroClientes",
-        "projectPath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj",
+        "projectPath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj",
         "packagesPath": "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\obj\\",
+        "outputPath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

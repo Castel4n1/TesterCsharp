@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3shDfsOk04P8WLYO0+Euf6wbgF4fFSktJgE0m7aXxQhy92xcqXaEuGMARgSomwt99iJItkRgbwxZqSoe8kEjzQ==",
+  "dgSpecHash": "GN4KnRtTV8iAHO5Z6MQUScpbBF/hsgq1OztCEFVdiP3JefbWLRaPRy8IabUDuOz4BQwm/8Ap9JxJQ5DymNV4xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj",
+  "projectFilePath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

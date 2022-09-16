@@ -10096,11 +10096,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
+      "projectUniqueName": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
       "projectName": "CadastroClientes.Test",
-      "projectPath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
+      "projectPath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
       "packagesPath": "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes.Test\\obj\\",
+      "outputPath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -10123,8 +10123,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj": {
-              "projectPath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes\\CadastroClientes.csproj"
+            "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj": {
+              "projectPath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes\\CadastroClientes.csproj"
             }
           }
         }

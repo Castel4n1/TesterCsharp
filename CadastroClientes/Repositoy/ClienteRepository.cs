@@ -36,13 +36,20 @@ namespace CadastroClientes.Repositoy
             return cliente;
         }
 
-        public async Task<Cliente> UpdateClientes(Cliente clienteAlterado)
+        public async Task<Cliente> UpdateClientes(int id, Cliente clienteAlterado)
         {
-            _context.Entry(clienteAlterado).State = EntityState.Modified;
+            var cliente = await _context.Clientes.FirstOrDefaultAsync(c => c.Id == id);
+            if (cliente == null)
+                return cliente;
+
+            cliente.AtualizaDados(clienteAlterado.Nome, clienteAlterado.Nascimento, clienteAlterado.Email);
+
+            _context.Entry(cliente).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return clienteAlterado;
+            return cliente;
         }
+
         public async Task DeleteCliente(int id)
         {
             var cliente = await _context.Clientes

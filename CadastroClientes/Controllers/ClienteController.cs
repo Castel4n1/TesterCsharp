@@ -39,10 +39,12 @@ namespace CadastroClientes.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCliente(int id, Cliente cliente)
         {
-            //if (id != cliente.Id)
-            //    return BadRequest();            
+            var clienteAlterado = await _clienteRepository.UpdateClientes(id, cliente);
 
-            return Ok(await _clienteRepository.UpdateClientes(cliente));
+            if (id != cliente.Id)
+                return BadRequest();
+
+            return Ok(clienteAlterado);
         }
 
         [HttpPost]

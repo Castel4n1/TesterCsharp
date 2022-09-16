@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nTzNhY1KTs+vpW2Qda/9uD8lVsIO3Y4tl6j4LkEXCnf21E4JqmqUIfo3SBMGtPVotc/gRhala4NyXRadg737aw==",
+  "dgSpecHash": "J9OunpyPQU9Mzb5Nro6JgtBs3BK+TE3nD6kTYKEhNPRc/W3iXJceSB9E0sUh2YhiSUBRe21rRPDa66PpV/WmKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaue.cbomfim\\Documents\\CadastroClientes\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
+  "projectFilePath": "C:\\Users\\kaue.cbomfim\\Source\\Repos\\TesterCsharp\\CadastroClientes.Test\\CadastroClientes.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\kaue.cbomfim\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
